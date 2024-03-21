@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="commonstyles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <script defer src="weight.js"></script>
+  <title>Weight Converter</title>
+</head>
+<body>
+  <div class="non-footer">
+    <header class="navbar">
+      <div class="dropdown-nav"><img id="hamburger" style="margin-top: 14px;" src ="Images/menu-24px.svg">
+        <div class="dropdown-content" >
+          <a href="https://string-util.netlify.app" target="_blank">String Utilities</a>
+          <a href="https://colou-util.netlify.app" target="_blank">Color Converter</a>
+          <a href="https://time-converter-gvsn.netlify.app/" target="_blank">Time Converter</a>
+          <a href="https://number-base-converet.netlify.app" target="_blank">Base Converter</a>
+          <a href="https://encoder-decoder-app.netlify.app" target="_blank">Encoder/Decoder</a>  
+     
+        </div>
+      </div>
+
+      <div class="dropdown-nav">Unit Converter <span><img class="dropdown-arrow" src="Images/down-arrow.svg"></span>
+        <div class="dropdown-content">
+          <a href="index.html">Length</a>
+          <a href="#">Weight</a>
+          <a href="temperature.html">Temperature</a>
+        </div>
+        </div>
+
+
+    <div class="util"><a style="color:rgb(77, 80, 83);text-decoration: none;" href="https://util-app-dashboard.netlify.app/" target="_blank">Utility<span style="background-color: rgb(39, 110, 241);color:white;border-radius: 50%;">@</span>pps</a></div>
+     
+</header>
+<main class="main-content">
+  
+  <h2 style="text-align: center;">Weight Converter</h2>
+  <div class="input-output">
+  <div >
+  <input type="text" id="input" required="true" placeholder="Enter input" >
+  <input type="text" id="output" placeholder="Output" readonly>
+  </div>
+
+  
+<div style="margin-top:20px;">
+  <select id="iselect" >
+  <option value="igram">Gram</option>
+  <option value="ipound">Pound</option>
+  <option value="ikilogram">Kilogram</option>
+</select>
+
+<select id="oselect">
+  <option value="ogram">Gram</option>
+  <option value="opound">Pound</option>
+  <option value="okilogram">Kilogram</option>
+</select>
+
+</div>
+<div style="margin-top:20px;">
+  <input type="button" id="convert-button" value= "Convert">
+  <input type="button" id="reset-button" value= "Reset">
+</div>
+</div>
+
+</main>
+
+<section>
+  <div class="content-info" style="text-align: justify;">
+  <h3 style="padding-top: 10px;text-align: center;">What is Unit converter?</h3>
+  <p>The process of conversion depends on the specific situation and the intended purpose. This may be governed by regulation, contract, technical specifications or other published standards.</p>
+   <p>Some conversions from one system of units to another need to be exact, without increasing or decreasing the precision of the first measurement.It does not involve changing the physical configuration of the item being measured</p>
+   <p>By contrast, a hard conversion or an adaptive conversion may not be exactly equivalent. It changes the measurement to convenient and workable numbers and units in the new system.</p>
+   <p>You can check out more about it 
+     <a style="color:#388bfd;" href ="https://en.wikipedia.org/wiki/Conversion_of_units" target="_blank">here.</a></p>
+    </div>     
+  </section>
+</div>
+<div class="footer-wrapper">
+<footer style="background-color:#24292e;">
+  <div class="footer-info" style="text-align: center;color:white;">
+    <p style="padding-top: 10px;">Check out my profiles here:</p>
+     <div class="footer-logo" >
+      <a href="https://www.linkedin.com/in/gvsn138/" target="_blank"><img src="Images/linkedin.svg"></a>
+      <a style="margin-left: 10px;margin-right: 10px;" href="https://github.com/gvsn138" target="_blank"><img src="Images/github.svg"></a>
+      <a href="https://twitter.com/gvsn138" target="_blank"><img src="Images/twitter.svg"></a>  
+    </div>
+  </div>
+</footer>
+</div>
+
+</body>
+</html>
